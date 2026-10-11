@@ -1,0 +1,11 @@
+{
+  "appId": "pt.rjp.cesarricardo.semprenoar",
+  "appName": "Almeida Tavares Air Force",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

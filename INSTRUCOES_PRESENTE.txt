@@ -1,0 +1,24 @@
+ALMEIDA TAVARES AIR FORCE — SEMPRE NO AR · V1.2.0
+-------------------------------------
+
+FRASE OFICIAL
+Sempre no ar. Se faltar a potência, há sempre um comprimido azul.
+
+Para experimentar a app:
+1. Abre preview.html num navegador do PC (com os restantes ficheiros da pasta).
+2. No menu «O bilhete» encontras o cartão simbólico «Sempre 20 anos».
+3. Experimenta escalas, diário, fusos horários, destinos e cópias de segurança.
+
+Para instalar a WebApp Android, publica o projeto no GitHub e ativa Pages.
+Para gerar o APK, vai a Actions → Almeida Tavares Air Force - WebApp e Android APK.
+O passo a passo está no README.md.
+
+ATUALIZAÇÕES: Para atualizar um APK sem desinstalar, usa sempre o mesmo
+identificador e a MESMA chave de assinatura (GitHub Secrets). Instala a
+variante ATUALIZAVEL.apk e mantém a assinatura nos lançamentos seguintes.
+
+Dados guardados no dispositivo; exporta backups JSON em Definições.
+Aplicação pessoal, sem utilização operacional de voo nem afiliação à TAP.
+
+Novo nome da app: Almeida Tavares Air Force. O cartão continua dedicado a César Ricardo.
+O ícone CR foi mantido conforme o emblema pessoal selecionado anteriormente.
