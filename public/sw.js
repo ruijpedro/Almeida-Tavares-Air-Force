@@ -1,4 +1,4 @@
-const VERSION = 'almeida-tavares-air-force-v1-2-0';
+const VERSION = 'almeida-tavares-air-force-v1-2-1';
 const ESSENTIAL = ['./', './index.html', './manifest.webmanifest'];
 const ASSETS = ['./assets/app.js', './assets/style.css', './assets/index.css', './assets/main.css', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-192.png', './icons/maskable-512.png', './icons/brand-emblem.png'];
 self.addEventListener('install', event => {

@@ -1,6 +1,6 @@
 export const APP_NAME = 'Almeida Tavares Air Force';
 export const APP_SUBTITLE = 'Sempre no Ar';
-export const APP_VERSION = '1.2.0';
+export const APP_VERSION = '1.2.1';
 export const STORAGE_KEY = 'cesar-ricardo-sempre-no-ar-v1';
 export const CITY_ZONES = [
   { name:'Lisboa', zone:'Europe/Lisbon', code:'LIS', flag:'🇵🇹' },

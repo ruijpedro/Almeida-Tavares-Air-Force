@@ -1,6 +1,6 @@
 # Almeida Tavares Air Force ✈️
 
-**Versão 1.2.0 · Edição Sempre 20 Anos · PT-PT**
+**Versão 1.2.1 · Edição Sempre 20 Anos · PT-PT**
 
 Aplicação pessoal **Almeida Tavares Air Force**, criada para César Ricardo, com visual de aviação, cartão simbólico entre amigos, agenda de escalas, diário de voos, fusos horários, caderno de destinos e estatísticas. Funciona como **WebApp/PWA** e pode ser compilada como **APK Android** com Capacitor. Não é uma aplicação oficial da TAP nem um EFB aprovado.
 
@@ -98,6 +98,16 @@ python3 scripts/criar-preview.py
 ## Modelo CSV de importação
 
 Separador `;`, cabeçalhos: `tipo;inicio;fim;trajeto;nota`; datas em formato `AAAA-MM-DDThh:mm`, **hora local**. O exemplo está em `public/exemplos/escalas-modelo.csv`. Importações acrescentam entradas; não fazem sincronização com sistemas TAP. Os eventos `.ics` exportados utilizam horas locais *flutuantes* e devem ser verificados no calendário onde forem importados, sobretudo se houver mudanças de fuso horário.
+
+## Mudanças na V1.2.1 — correção da compilação Android
+
+- Atualizada a ação do Android SDK de `android-actions/setup-android@v3` para `android-actions/setup-android@v4`.
+- Definido explicitamente `packages: 'platform-tools'`, evitando a tentativa de instalação do pacote descontinuado `tools` (erro `Failed to find package 'tools'`).
+- Corrigido o script `scripts/prepare_android.py`: o `versionName` é agora lido da versão de `package.json`, enquanto o `versionCode` continua a aumentar com o número da execução.
+- Versão 1.2.1 atualizada no projeto, WebApp, pré-visualização e cache offline.
+- Mantidos o `appId`, o nome, o emblema CR, os dados locais e as funcionalidades da V1.2.0.
+
+**Para corrigir uma instalação existente no GitHub:** substitui o ficheiro `.github/workflows/build.yml` pelo desta versão e volta a executar a ação. Se quiseres que também apareça a versão 1.2.1, atualiza o projeto completo. Não é necessário desinstalar a app já instalada, desde que uses o APK assinado com a mesma chave privada.
 
 ## Mudanças na V1.2.0
 

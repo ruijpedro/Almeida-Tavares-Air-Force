@@ -1,7 +1,7 @@
 {
   "name": "almeida-tavares-air-force",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "Almeida Tavares Air Force — companheiro pessoal de aviação para César Ricardo",
   "scripts": {
